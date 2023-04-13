@@ -4,9 +4,9 @@ import "./contact.css";
 const Contact = () => {
     return (
         <section id="contact">
+            <h5>Get In Touch</h5>
+            <h2>Contact Me</h2>
             <div className="container contact__container">
-                <h5>Get In Touch</h5>
-                <h2>Contact Me</h2>
                 <form action="https://hook.eu1.make.com/7i7wgb5gemo6uvzq1ycn5wc9rropteir">
                     <input
                         type="hidden"
