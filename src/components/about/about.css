@@ -10,9 +10,18 @@
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
-        transparent,
-        var(--color-primary),
-        transparent
+        #1a1a1a,
+        #3e3e3e,
+        #666666,
+        #919191,
+        #bfbfbf,
+        #bfbfbf,
+        #bfbfbf,
+        #bfbfbf,
+        #919191,
+        #666666,
+        #3e3e3e,
+        #1a1a1a
     );
     display: grid;
     place-items: center;

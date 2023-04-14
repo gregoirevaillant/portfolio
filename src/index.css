@@ -1,5 +1,5 @@
 /* Import font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
 
 /* Reset the css */
 * {
@@ -13,12 +13,12 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: #4db5ff66;
+    --color-bg: #1a1a1a;
+    --color-bg-variant: #333333;
+    --color-primary: #ffffff;
+    --color-primary-variant: #e6e6e6;
     --color-white: #ffffff;
-    --color-light: #ffffff99;
+    --color-light: #f2f2f2;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -36,11 +36,10 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png); /* Add the texture to the background */
 }
 
 /* General styles */
@@ -88,7 +87,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-primary-variant);
 }
 
 .btn {
@@ -105,13 +104,13 @@ a:hover {
 .btn:hover {
     color: var(--color-bg);
     background: var(--color-white);
-    border: transparent;
+    border-color: transparent;
 }
 
 .btn-primary {
     color: var(--color-bg);
     background: var(--color-primary);
-    border: transparent;
+    border-color: transparent;
 }
 
 img {
