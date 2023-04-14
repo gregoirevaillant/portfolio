@@ -11,7 +11,7 @@ const Contact = () => {
                     <input
                         type="hidden"
                         name="redirect"
-                        value="https://gregoirevaillant.github.io/portfolio"
+                        value="https://gregoirevaillant.github.io/portfolio#contact"
                     />
                     <input
                         type="text"
