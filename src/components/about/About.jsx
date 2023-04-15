@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.png";
-import { FaAward, FaUser, FaLaptopCode } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -16,31 +15,26 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about__content">
-                    <div className="about__cards">
-                        <article className="about__card">
-                            <FaAward className="about__icon" />
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
-                        </article>
-                        <article className="about__card">
-                            <FaUser className="about__icon" />
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
-                        </article>
-                        <article className="about__card">
-                            <FaLaptopCode className="about__icon" />
-                            <h5>Projects</h5>
-                            <small>80+ Completed</small>
-                        </article>
-                    </div>
-
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Saepe sunt neque numquam sed sint suscipit ad
-                        doloribus quibusdam magni odit, fuga tenetur hic vero
-                        mollitia adipisci distinctio provident nulla molestiae.
-                        Eveniet asperiores similique molestiae recusandae atque?
-                        Aliquid fugiat illo, voluptatem, ex aliquam deserunt.
+                        Hello and welcome to my portfolio! My name is Grégoire,
+                        and I am a third year student with a passion for web
+                        development. Although I am currently pursuing a degree
+                        in Business Administration, I have been teaching myself
+                        web development since the end of 2021. I am driven by my
+                        desire to create user-friendly, efficient, and visually
+                        appealing websites that meet the needs of users. With my
+                        dedication to learning and my ability to work both
+                        independently and as part of a team, I am confident that
+                        I have the skills and drive to succeed as a web
+                        developer. Throughout my learning journey, I have honed
+                        my skills in HTML, CSS, Javascript, C++ and I am always
+                        eager to learn more. I have experience working with
+                        HTML, CSS and Javascript, and I am excited to continue
+                        expanding my knowledge in these areas.
+                        <br />
+                        Thank you for taking the time to visit my portfolio, and
+                        I look forward to the opportunity to work with you in
+                        the future!
                     </p>
                     <a href="#contact" className="btn btn-primary">
                         Let's Talk
