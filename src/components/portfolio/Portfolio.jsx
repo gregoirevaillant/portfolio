@@ -1,54 +1,54 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/tictactoe.png";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG3 from "../../assets/interactivemap.png";
+import IMG4 from "../../assets/library.png";
+import IMG5 from "../../assets/calculator.png";
+import IMG6 from "../../assets/rockpaperscissors.png";
 
 const projects = [
     {
         id: 1,
         image: IMG1,
         title: "Tic Tac Toe",
-        github: "https://github.com",
-        live: "https://github.com/gregoirevaillant",
+        github: "https://github.com/gregoirevaillant/tic-tac-toe",
+        live: "https://gregoirevaillant.github.io/tic-tac-toe/",
     },
     {
         id: 2,
         image: IMG2,
         title: "Restaurant",
-        github: "https://github.com",
-        live: "https://github.com/gregoirevaillant",
+        github: "https://github.com/gregoirevaillant/restaurant-page",
+        live: "https://gregoirevaillant.github.io/restaurant-page/",
     },
     {
         id: 3,
         image: IMG3,
         title: "Interactive Map",
-        github: "https://github.com",
-        live: "https://github.com/gregoirevaillant",
+        github: "https://github.com/gregoirevaillant/interactive-map",
+        live: "https://gregoirevaillant.github.io/interactive-map/",
     },
     {
         id: 4,
         image: IMG4,
-        title: "Landing page",
-        github: "https://github.com",
-        live: "https://github.com/gregoirevaillant",
+        title: "Library",
+        github: "https://github.com/gregoirevaillant/library",
+        live: "https://gregoirevaillant.github.io/library/",
     },
     {
         id: 5,
         image: IMG5,
-        title: "Garni",
-        github: "https://github.com",
-        live: "https://github.com/gregoirevaillant",
+        title: "Calculator",
+        github: "https://github.com/gregoirevaillant/calculator",
+        live: "https://gregoirevaillant.github.io/calculator/",
     },
     {
         id: 6,
         image: IMG6,
-        title: "Landing page NFT",
-        github: "https://github.com",
-        live: "https://github.com/gregoirevaillant",
+        title: "Rock Paper Scissors",
+        github: "https://github.com/gregoirevaillant/rock-paper-scissors",
+        live: "https://gregoirevaillant.github.io/rock-paper-scissors/",
     },
 ];
 
