@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/tictactoe.png";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG2 from "../../assets/todo.png";
 import IMG3 from "../../assets/interactivemap.png";
 import IMG4 from "../../assets/library.png";
 import IMG5 from "../../assets/calculator.png";
