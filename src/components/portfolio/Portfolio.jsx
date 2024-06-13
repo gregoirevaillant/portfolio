@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
+import IMG0 from "../../assets/ordersystem.png";
 import IMG1 from "../../assets/tictactoe.png";
-import IMG2 from "../../assets/todo.png";
 import IMG3 from "../../assets/interactivemap.png";
 import IMG4 from "../../assets/library.png";
 import IMG5 from "../../assets/calculator.png";
@@ -9,18 +9,18 @@ import IMG6 from "../../assets/rockpaperscissors.png";
 
 const projects = [
     {
+        id: 0,
+        image: IMG0,
+        title: "Food truck order system",
+        github: "https://github.com/gregoirevaillant/tthan",
+        live: "https://gregoirevaillant.github.io/tthan/",
+    },
+    {
         id: 1,
         image: IMG1,
         title: "Tic Tac Toe",
         github: "https://github.com/gregoirevaillant/tic-tac-toe",
         live: "https://gregoirevaillant.github.io/tic-tac-toe/",
-    },
-    {
-        id: 2,
-        image: IMG2,
-        title: "Restaurant",
-        github: "https://github.com/gregoirevaillant/restaurant-page",
-        live: "https://gregoirevaillant.github.io/restaurant-page/",
     },
     {
         id: 3,

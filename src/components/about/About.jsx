@@ -17,7 +17,7 @@ const About = () => {
                 <div className="about__content">
                     <p>
                         Hello and welcome to my portfolio! My name is{" "}
-                        <b>Grégoire</b>, and I am a third year student with a
+                        <b>Grégoire</b>, and I am a fourth year student with a
                         passion for web development. Although I am currently
                         pursuing a degree in Business Administration, I have
                         been teaching myself web development since the end of
