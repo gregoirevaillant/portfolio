@@ -5,7 +5,7 @@ import {
     AiOutlineHome,
     AiOutlineUser,
     AiOutlineBook,
-    AiOutlineMessage,
+    AiOutlineProject,
 } from "react-icons/ai";
 
 import { useState } from "react";
@@ -36,13 +36,7 @@ const Nav = () => {
                 href="#portfolio"
                 onClick={() => setActiveNav("#portfolio")}
                 className={activeNav === "#portfolio" ? "active" : ""}>
-                <AiOutlineHome />
-            </a>
-            <a
-                href="#contact"
-                onClick={() => setActiveNav("#contact")}
-                className={activeNav === "#contact" ? "active" : ""}>
-                <AiOutlineMessage />
+                <AiOutlineProject />
             </a>
         </nav>
     );
