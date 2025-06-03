@@ -6,8 +6,24 @@ import IMG3 from "../../assets/interactivemap.png";
 import IMG4 from "../../assets/library.png";
 import IMG5 from "../../assets/calculator.png";
 import IMG6 from "../../assets/rockpaperscissors.png";
+import IMG7 from "../../assets/mimeal.jpg";
+import IMG8 from "../../assets/mimo.png";
 
 const projects = [
+    {
+        id: 7,
+        image: IMG7,
+        title: "MiMeal",
+        // github: "https://github.com/gregoirevaillant",
+        live: "https://mimeal.fr/",
+    },
+    {
+        id: 7,
+        image: IMG8,
+        title: "MiMo",
+        // github: "https://github.com/gregoirevaillant",
+        live: "https://emilieary.com/",
+    },
     {
         id: 0,
         image: IMG0,
@@ -66,18 +82,22 @@ const Portfolio = () => {
                         </div>
                         <h3>{title}</h3>
                         <div className="portfolio__item-cta">
-                            <a
-                                href={github}
-                                className="btn"
-                                target="_blank"
-                                rel="noreferrer">
-                                Github
-                            </a>
+                            {github && (
+                                <a
+                                    href={github}
+                                    className="btn"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Github
+                                </a>
+                            )}
                             <a
                                 href={live}
                                 className="btn btn-primary"
                                 target="_blank"
-                                rel="noreferrer">
+                                rel="noreferrer"
+                            >
                                 Live Demo
                             </a>
                         </div>

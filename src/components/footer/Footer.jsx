@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./footer.css";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsEnvelopeAt } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -32,6 +32,9 @@ const Footer = () => {
                 </a>
                 <a rel="noreferrer" target="_blank" href="https://github.com/gregoirevaillant/">
                     <BsGithub />
+                </a>
+                <a href="mailto:vaillant.g@outlook.com">
+                    <BsEnvelopeAt />
                 </a>
             </div>
             <div className="footer__copyright">

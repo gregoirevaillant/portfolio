@@ -1,6 +1,6 @@
 {
     "name": "portfolio_website",
-    "homepage": "http://gregoirevaillant.github.io/portfolio-old",
+    "homepage": "http://gregoirevaillant.github.io/portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
