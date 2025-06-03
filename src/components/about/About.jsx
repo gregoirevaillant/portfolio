@@ -34,7 +34,7 @@ const About = () => {
                         <br/>
                         Thank you for visiting my portfolio.
                     </p>
-                    <a href="#contact" className="btn btn-primary">
+                    <a href="mailto:vaillant.g@outlook.com" className="btn btn-primary">
                         Let's Talk
                     </a>
                 </div>
