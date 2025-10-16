@@ -3239,6 +3239,7 @@ figcaption {
 .wrap-button-cta {
   background-color: var(--color-dark-2\<deleted\|variable-905d6586-c704-a151-3816-675bae839223\>);
   box-shadow: 0 0 30px 40px var(--color-dark-2\<deleted\|variable-905d6586-c704-a151-3816-675bae839223\>);
+  margin-bottom: 2rem;
 }
 
 .testimonials-anchor {
