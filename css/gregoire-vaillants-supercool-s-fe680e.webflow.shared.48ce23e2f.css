@@ -399,7 +399,8 @@ h3 {
   line-height: 30px;
 }
 
-h4 {
+h4,
+.heading-style-4 {
   margin-top: 10px;
   font-size: 18px;
   line-height: 24px;
@@ -2215,6 +2216,8 @@ textarea.w-input, textarea.w-select {
   font-size: 60px;
   font-weight: 700;
   line-height: 115%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .maxw-did-you-find {
@@ -2327,7 +2330,8 @@ h3 {
   line-height: 130%;
 }
 
-h4 {
+h4,
+.heading-style-4 {
   color: var(--text-color-dark);
   margin-top: 0;
   margin-bottom: .6em;
@@ -2445,6 +2449,12 @@ figcaption {
 .paragraph-small {
   color: var(--text-color-dark);
   font-size: 14px;
+}
+
+.heading-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
 }
 
 .text-spacing-0em {
@@ -2781,6 +2791,8 @@ figcaption {
   font-size: 60px;
   font-weight: 700;
   line-height: 115%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .text-button {
@@ -3893,7 +3905,8 @@ figcaption {
     font-size: 30px;
   }
 
-  h4 {
+  h4,
+  .heading-style-4 {
     font-size: 24px;
   }
 
@@ -4322,7 +4335,8 @@ figcaption {
     font-size: 24px;
   }
 
-  h4 {
+  h4,
+  .heading-style-4 {
     font-size: 21px;
   }
 
@@ -4814,7 +4828,8 @@ figcaption {
     font-size: 23px;
   }
 
-  h4 {
+  h4,
+  .heading-style-4 {
     font-size: 20px;
   }
 
@@ -5167,7 +5182,8 @@ figcaption {
     font-size: 21px;
   }
 
-  h4 {
+  h4,
+  .heading-style-4 {
     font-size: 19px;
   }
 
